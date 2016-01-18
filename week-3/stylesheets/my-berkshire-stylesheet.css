@@ -1,0 +1,105 @@
+html {
+  background-color: white;
+  color: #000080;
+}
+
+a {
+  color: #800080;
+  display: inline;
+}
+
+a:visited {
+  color: #ff0000
+}
+
+.center {
+  padding: 0 50px;
+}
+
+.left {
+  width: 300px;
+  display: inline-block;
+  width: 50%;
+}
+
+.right {
+  width: 300px;
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+span {
+  font-size: 10px;
+}
+
+header span {
+  font-size: 36px;
+}
+
+header {
+  font-weight: bold;
+  text-align: center;
+}
+
+header p {
+  margin: 2px;
+}
+
+li {
+  line-height: 45px;
+}
+
+.geico {
+  text-align: center;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.geico p {
+  margin: 2px;
+}
+
+.geico > p {
+  display: inline;
+}
+
+.questions {
+  font-size: 12px;
+}
+
+.disclaimer p {
+  font-size: 10px;
+}
+
+.disclaimer p span {
+  font-weight: bold;
+}
+
+.hr {
+  height: 1px;
+  background-color: grey;
+  margin: 10px;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+Its important to know the syntax used to link the file. It's important to order them correctly in the document. It important to know where in the file structure the document is so you can reference it corectly.
+
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+It's not clear to me what you mean by tricks. However, I used the DevTools to select elements that I wanted to position. CSS is difficult for me. It was very hard to get the site just how I wanted, and even then it wasn't perfect.
+
+
+What CSS did you use to modify the element style (like size, color, etc.)
+I used height, color, margin, font-weight, font-size, display, text-align, line-height, padding, background-color.
+
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+I added the follorwing classes: left, right, questions, disclaimer, geico, center. This made it easier to know which elements I was styling in the CSS without having to then reference the accompanying HTML.
+
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+The HTML in the BH site doesnt appear to be very semantic. It's difficult to read because of such little structure. They use a table for the layout which is frowned upon more recently. They use some embedded styling which is also frowned upon now. My code is more semantic, using stylesheets over embedded styling.
+
+*/
