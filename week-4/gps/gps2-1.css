@@ -1,0 +1,35 @@
+body {
+  font-family: Helvetica;
+}
+
+header {
+}
+
+h1 {
+  text-align: center;
+}
+
+.column-1 {
+  float: left;
+  display: inline-block;
+  width: 48%;
+  padding-left: 2%;
+}
+
+.column-2 {
+  display: inline-block;
+  width: 48%;
+  float: right;
+  padding-left: 2%;
+}
+
+footer {
+  margin-top: 3%;
+  clear: both;
+  text-align: center;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+}
