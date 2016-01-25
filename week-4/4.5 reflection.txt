@@ -1,0 +1,19 @@
+What is the most important thing to know about flow control in your opinion?
+
+Conceptually it's good to know that programs don't have to run sequentially. You can redirect the logic based on certain inputs. In addition, you need to know the syntax to the various flow control mechanisms.
+
+What is the most difficult thing to understand about flow control?
+
+Having a good understanding of the logic.
+
+What are some ways of comparing two objects to see if they are the same?
+
+The primary methods to determine if two objects are the same are equal?, eql?, ===, and ==.
+
+Which challenge was the most difficult? Why do you think that was?
+
+Clearly the triangle exercise stumped us for a bit. We did not know the equation initially but then realized that we could look at the spec file to see what the requirements were.
+
+What did your pair teach you about Ruby, flow control, programming, or being a good pair when you were pairing?
+
+As mentioned, viewing the rspec file was VERY helpful to determine the specification. I also learned of other types of equality operators. I also learned that there are two different ways to interpret driver--one who does exactly what the navigator says, and the other who never takes their hands off the keyboard, does the work and only has the navigator provide assistance and resource information lookup.
