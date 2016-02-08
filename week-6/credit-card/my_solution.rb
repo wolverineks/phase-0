@@ -95,3 +95,18 @@ end
 
 c = CreditCard.new(1111111111111151)
 c.check_card
+
+# Reflection
+
+What was the most difficult part of this challenge for you and your pair?
+
+The most difficult part of the challenge was reading and understanding the
+instructions.
+
+What new methods did you find to help you when you refactored?
+
+I found the each_with_index method to be helpful.
+
+What concepts or learnings were you able to solidify in this challenge?
+
+I was able to better understand ternary conditional statements.
