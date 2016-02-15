@@ -10,7 +10,7 @@
 // ask the user for a range and Bearing
 //
 // update board with users guess
-// 
+//
 // if user range and bearing match target range and bearing
 //   you win
 // else
@@ -86,3 +86,21 @@ markBoard(guess);
 checkGuess(guess);
 
 print(board);
+
+
+//
+// What was the most difficult part of this challenge?
+//
+// The most dificult part of this challenge was manipulating the range and bearing variables to align with the orientation of the board.
+//
+// What did you learn about creating objects and functions that interact with one another?
+//
+// I learned to be more careful when naming variables and properties. Having similar named variables and properties can lead to confusion.
+//
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+//
+// I learned about floor, and random. Floor will return a number without any decimal places. Random will return a random number between 0 and 1.
+//
+// How can you access and manipulate properties of objects?
+//
+// YOu can access properties of an object with dot notaion or bracket notation. E.g. object.property or object["property"]
