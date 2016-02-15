@@ -1,0 +1,3 @@
+SELECT * FROM States;
+
+SELECT * FROM Regions;
